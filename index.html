@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Merienda+One|Lily+Script+One|Macondo|Nunito+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Text that appears on Top-->
+
+  <div class="container-fluid body-container">
+
+    <!--Shows current location-->
+    <div class=" text-center">
+      <h1 class="location-text small" id="location">Please, Allow Location Access</h1>
+    </div>
+
+    <!--Shows the current temperature-->
+    <div style="margin-top:-5%;" class="text-center">
+      <h2 class="temperature-number" style="display:inline;"></h2>
+      <h2 style="display:inline" id="degree"></h2>
+      <a class="changeUnit" href="#"><h2 style="display:inline" id="cf"></h2></a>
+      <p class="btn" style="visibility:hidden">Switch unit</p>
+    </div>
+
+    <!-- Shows temperature icon according to the current weather  -->
+    <div style="margin-top:2%;" class="temp-icon text-center">
+
+    </div>
+
+    <!--Shows is weather clear cloudy or rainy-->
+    <div class="temperature-text text-center">
+
+    </div>
+
+    <!-- Shows wind information -->
+    <div class="wind-text text-center">
+
+    </div>
+
+    <!-- footer infomation  -->
+    <div class="footer text-center">
+
+    </div>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

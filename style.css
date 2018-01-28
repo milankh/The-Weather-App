@@ -1,0 +1,86 @@
+.footer{
+  margin-top: 7%;
+  color:gray;
+  font-family:'Nunito Sans', sans-serif;;
+}
+
+.location-text{
+  font-size: 20px;
+  font-variant: small-caps;
+  padding:7%;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-decoration: none;
+  color:white;
+  cursor:text;
+}
+
+.temperature-number, #degree, #cf{
+  font-size: 90px;
+}
+
+.temperature-text{
+  font-size: 20px;
+}
+
+.temp-image{
+  width:10%;
+}
+
+.body-container{
+  margin-top: 0 !important;
+  height:100vh;
+  background-color: #87CEFA;
+  color:white;
+}
+
+#location{
+  color:gray;
+}
+
+.btn{
+  border: 2px solid white;
+  border-radius: 10px;
+  padding:3px;
+  margin-left: 1.5%;
+}
+
+.btn:hover{
+  background-color: white;
+  color:skyblue;
+  transition: 0.5s;
+}
+
+.small{
+font-size: 20px;
+padding:23%;
+font-weight: 500;
+}
+
+@media (max-width:435px){
+  .temperature-number, #degree, #cf{
+    font-size: 60px;
+  }
+
+.btn{
+    display: block;
+    margin-top: 7%;
+  }
+
+.temperature-text{
+    margin-top: 7%;
+  }
+
+.temp-icon{
+    margin-top: 7% !important;
+  }
+
+.temp-image{
+    width:25%;
+  }
